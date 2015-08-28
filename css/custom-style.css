@@ -1,0 +1,14 @@
+/* How to import fonts:
+@import url('http://fonts.googleapis.com/css?family=Montserrat|Bitter');
+font: normal 14px/28px Montserrat; color: hsl(180, 40%, 40%); */
+
+html,body {
+	height: 100%;
+}
+
+.jumbotron {
+	height: 90%;
+	background: url('../imgs/hero.jpg') no-repeat center center fixed;
+	background-size: cover;
+}
+
