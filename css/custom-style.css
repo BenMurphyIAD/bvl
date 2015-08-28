@@ -26,3 +26,39 @@ html,body {
 	height: 160px;
 	font-size: 60px;
 }
+
+
+#vacanciesGrid .row{
+    background:#090923 ;
+    text-align:center;
+    color:white; 
+    border:1px solid #090923 ;
+    border-radius:4px;
+    margin-bottom:20px;
+    min-height:20px;
+    padding:50px;
+    width:100%;
+}
+
+.jobTitle{
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size:18pt;
+    /*font-stretch: condensed;*/
+}
+
+.jobDesc{
+    font-family: "calibri", "sans-serif";
+    font-size:10pt;
+    margin: 0 auto;
+    width: 80%;
+    
+}
+
+#vacanciesGrid{
+    background:#090923 ;
+    width:100%;
+}
+
+#vacanciesGrid .col-md-4, .col-sm-6, .col-xs-12 {
+    margin-bottom: 40px;
+}
