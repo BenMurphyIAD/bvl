@@ -1,10 +1,19 @@
 /* How to import fonts:
 @import url('http://fonts.googleapis.com/css?family=Montserrat|Bitter');
 font: normal 14px/28px Montserrat; color: hsl(180, 40%, 40%); */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
 html,body {
 	height: 100%;
 	min-width: 320px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	text-transform: uppercase;
+	letter-spacing: -1px;
+	font-size: 1.5em;
+	font-weight: bold;
 }
 
 .jumbotron {
@@ -13,14 +22,21 @@ html,body {
 	color: #FFF;
 	text-align: center;
 }
-.jumbotron img {
-	width: 80%;
-	max-width: 900px;
-	min-height: 200px;
-	min-width: 200px;
-	border: 2px solid white;
-	border-radius: 50%;
-}
+	.jumbotron img {
+		width: 80%;
+		max-width: 900px;
+		min-height: 200px;
+		min-width: 200px;
+		border: 2px solid white;
+		border-radius: 50%;
+	}
+	.jumbotron a {
+		color: #FFF;
+		text-decoration: none;
+	}
+	.jumbotron a:hover {
+		color: #FFCC66;
+	}
 .headerContainer {
 	margin: auto;
 	width: 98%;
@@ -55,7 +71,29 @@ html,body {
 	padding: 5px 0;
 }
 
-
+#infoContainer {
+	width: 80%;
+	margin: auto;
+	background: url('../imgs/Map.png') right no-repeat;
+	background-size: contain;
+	height: 600px;
+}
+#infoContainer p {
+	width: 50%;
+}
+.clcb {
+	font-style: italic;
+	font-family: "Open Sans";
+   	font-size: x-large;
+   	font-weight: 300;
+   	line-height: 3;
+}
+#info {
+	margin: 5% 0;
+}
+.red-btn {
+	
+}
 
 #vacanciesGrid .row{
     margin: 0 auto;
