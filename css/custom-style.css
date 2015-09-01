@@ -7,14 +7,20 @@ html,body {
 }
 
 .jumbotron {
-	min-height: 88%;
 	background: url('../imgs/hero-image.jpg') no-repeat center center fixed;
 	background-size: cover;
 	color: #FFF;
+	text-align: center;
+}
+.jumbotron img {
+	width: 68vh;
+	max-width: 900px;
+	border: 2px solid white;
+	border-radius: 50%;
 }
 .jumbotron .container {
-	width: 575px;
-	height: 575px;
+	width: 500px;
+	height: 500px;
 	text-align: center;
 	position: relative;
 	text-transform: uppercase;
