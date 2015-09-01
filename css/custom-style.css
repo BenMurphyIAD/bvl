@@ -55,7 +55,81 @@ html,body {
 	padding: 5px 0;
 }
 
+/*Club */
 
+.clubImg {
+	background: url('../imgs/club.jpg') no-repeat center center;
+	background-size: cover;
+	color: #FFF;
+	text-align: center;
+	height:933px;
+}
+
+.boxOutline1{
+	border:3px solid;
+	border-color: #2E8ED8;
+	width:225px;
+	height:225px;
+	color:transparent;
+	position:absolute;
+	margin-left:20.5%;
+	margin-top:260px;
+}
+
+.boxOutline2{
+	border:3px solid;
+	border-color: #2E8ED8;
+	width:225px;
+	height:225px;
+	color:transparent;
+	position:absolute;
+	margin-left:20%;
+	margin-top:250px;
+
+}
+
+.boxDescDiv{
+	position:absolute;
+	color:transparent;
+	height:40%;
+	width:28%;
+	margin-top:250px;
+	margin-left:650px;
+	border-color:white;
+}
+
+.boxDesc{
+	position:absolute;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size:11pt;
+	color:white;
+	text-align:left;
+}
+
+.s4{
+	text-align: center;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color: #99AAB1;
+	font-size:50pt;
+	margin-top:25px;
+	margin-left:-5%;
+	margin: 0 auto;
+}
+
+.s4Text{
+	text-align: center;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 20pt;
+	color: white;
+	margin-top:-15px;
+	width:75%;
+	margin: 0 auto;
+}
+
+
+/*End Club */
+
+/*Grid */
 
 #vacanciesGrid .row{
     margin: 0 auto;
@@ -175,6 +249,8 @@ html,body {
 #vacanciesGrid .col-md-4, .col-sm-6, .col-xs-12 {
     margin-bottom: 120px;
 }
+
+/*End Grid*/
 
 /* Media queries: */
 @media only screen and (max-width : 768px) {
