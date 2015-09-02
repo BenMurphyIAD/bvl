@@ -71,6 +71,9 @@ h1 {
 	border: 1px dotted white;
 	padding: 5px 0;
 }
+body > .container-fluid {
+	background: url('../imgs/btown.png') center right no-repeat;
+}
 #infoContainer {
 	width: 80%;
 	margin: auto;
