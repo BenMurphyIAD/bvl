@@ -132,18 +132,19 @@ h1 {
 	position:absolute;
 	color:transparent;
 	height:40%;
-	width:28%;
+	width:24%;
 	margin-top:250px;
-	margin-left:650px;
+	margin-left:35%;
 	border-color:white;
 }
 
 .boxDesc{
 	position:absolute;
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-	font-size:11pt;
+	font-size:9pt;
 	color:white;
 	text-align:left;
+	letter-spacing: 2px;
 }
 
 .s4{
@@ -166,6 +167,16 @@ h1 {
 	margin: 0 auto;
 }
 
+.section4Slider{
+	
+	position:absolute;
+	margin-left:40%;
+	margin-top:550px;
+	width:35%;
+	height:40%;
+	border-color:white;
+	border:1px solid;
+}
 
 /*End Club */
 
