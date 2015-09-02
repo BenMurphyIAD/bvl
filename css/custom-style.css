@@ -71,7 +71,7 @@ h1 {
 	border: 1px dotted white;
 	padding: 5px 0;
 }
-body > .container-fluid {
+.b-town {
 	background: url('../imgs/btown.png') no-repeat;
 	background-position: 100% 0;
 	background-size: contain;
@@ -82,7 +82,6 @@ body > .container-fluid {
 	background: url('../imgs/Map.png') no-repeat;
 	background-position: right -20px;
 	background-size: contain;
-	margin-bottom: 6%;
 }
 #infoContainer p {
 	width: 60%;
@@ -133,6 +132,32 @@ body > .container-fluid {
 }
 #seeVacancies {
 	margin-bottom: 20%;
+}
+
+.five-reasons {
+  background: url('../imgs/Boat.jpg') center center no-repeat;
+  background-size: cover;
+  height: 800px;
+  position: relative;
+  font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
+  height: 100vh;
+}
+.reasons {
+	position: absolute;
+	font-size: 2em;
+	top: 42%;
+	left: 42%;
+	letter-spacing: -2px;
+	color: #B1AFA5;
+}
+.awesome {
+	position: absolute;
+	font-size: 5em;
+	top: 44%;
+	left: 44%;
+	font-weight: bold;
+	color: #60898F;
+	letter-spacing: -4px;
 }
 /*Club */
 
@@ -376,6 +401,11 @@ body > .container-fluid {
 		width: 100%;
 	}
 }
+@media only screen and (min-width : 670px) {
+	.five {
+		display: none;
+	}
+}
 @media only screen and (max-height: 545px) {
 	.discoverBtn {
 		width: 50%;
@@ -395,3 +425,5 @@ body > .container-fluid {
 		display: none;
 	}
 }
+
+/* 5 reasons breakpoint: 650px */ 
