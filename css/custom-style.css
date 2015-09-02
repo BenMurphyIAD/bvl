@@ -2,6 +2,9 @@
 @import url('http://fonts.googleapis.com/css?family=Montserrat|Bitter');
 font: normal 14px/28px Montserrat; color: hsl(180, 40%, 40%); */
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Abril+Fatface);
+@import url(https://fonts.googleapis.com/css?family=Abril+Fatface|Lora);
+
 html,body {
 	height: 100%;
 	min-width: 320px;
@@ -132,9 +135,8 @@ h1 {
 	margin-bottom: 20%;
 }
 .five-reasons {
-  background: url('../imgs/Boat.jpg') center center no-repeat;
+  background: url('../imgs/Boat2.png') center center no-repeat;
   background-size: cover;
-  height: 800px;
   position: relative;
   font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
   height: 100vh;
@@ -142,20 +144,104 @@ h1 {
 .reasons {
 	position: absolute;
 	font-size: 2em;
-	top: 42%;
-	left: 42%;
+	top: 32%;
+	left: 46%;
 	letter-spacing: -2px;
 	color: #B1AFA5;
 }
 .awesome {
 	position: absolute;
 	font-size: 5em;
-	top: 44%;
-	left: 44%;
+	top: 34%;
+	left: 48%;
 	font-weight: bold;
 	color: #60898F;
 	letter-spacing: -4px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/* Location Area */
+.location {
+	background: #C2FFE8;
+	background-size: contain;
+	height: 100vh;
+	position: relative;
+}
+.loc-topline {
+	position: absolute;
+	top: -150px;
+	left: 0;
+	background: url('../imgs/loc-topline.jpg')  center center no-repeat;
+	background-size: contain;
+	height: 150px;
+	width: 100%;
+}
+.loc-row {
+	width: 80%;
+	margin: auto;
+}
+.loc-heading-container {
+	position: relative;
+	text-align: center;
+	height: 250px;
+	width: 250px;
+}
+.loc-box1 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border: 2px solid #000;
+	top: -10px;
+	left: -10px;
+}
+.loc-box2 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border: 2px solid #000;
+	top: 10px;
+	left: 10px;
+}
+.loc-text-one {
+	padding-top: 45px;
+	font-size: 5em;
+	font-family: "Abril Fatface";
+}
+.loc-text-location {
+	font-size: 1.8em;
+	font-family: 'Lora', serif;
+}
+.loc-desc {
+	width: 50%;
+	position: absolute;
+}
+/* End Location Area */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*Club */
 .clubImg {
 	background: url('../imgs/club.jpg') no-repeat center center;
@@ -319,11 +405,6 @@ h1 {
 	background-size: contain;
 	height: 150px;
 	width: 100%;
-}
-#blueLine{
-	position: relative;
-    left: 50%;
-	height:150px;
 }
 .jobTitle{
    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
