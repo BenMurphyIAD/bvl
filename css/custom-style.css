@@ -17,6 +17,9 @@ h1 {
 	font-size: 1.5em;
 	font-weight: bold;
 }
+.row {
+	max-width: 1200px;
+}
 .jumbotron {
 	background: url('../imgs/hero-image.jpg') no-repeat center center fixed;
 	background-size: cover;
@@ -146,7 +149,7 @@ h1 {
 	font-size: 2em;
 	top: 32%;
 	left: 42%;
-	letter-spacing: -2px;
+	letter-spacing: -1px;
 	color: #B1AFA5;
 }
 .awesome {
@@ -160,94 +163,69 @@ h1 {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-/* Location Area */
-.location {
+.loc-section {
 	background: #C2FFE8;
-	background-size: contain;
-	min-height: 100vh;
-	position: relative;
 }
-.loc-topline {
-	position: absolute;
-	top: -150px;
-	left: 0;
-	background: url('../imgs/loc-topline.jpg')  center center no-repeat;
-	background-size: contain;
-	height: 150px;
+.loc-section img {
 	width: 100%;
+	height: auto;
 }
 .loc-row {
-	width: 80%;
-	margin: auto;
+	margin: 5% auto;
 }
-.loc-heading-container {
+.loc-line {
+	width: 100%;
+	height: 200px;
+	background: url('../imgs/loc-topline.jpg') center center no-repeat;
+}
+.loc-title-container {
+	position: static;
+	width: 200px;
+	height: 200px;
+	margin-bottom: 8%;
+}
+.loc-title {
+	width: 100%;
+	height: 100%;
 	position: relative;
 	text-align: center;
-	height: 250px;
-	width: 250px;
-	left: 5%;
-	top: 5%;
+	padding: 20%;
 }
-.loc-box1 {
-	position: absolute;
+.loc-title:before {
+	display: block;
+	content: "";
 	width: 100%;
 	height: 100%;
-	border: 2px solid #000;
+	
 	top: -10px;
 	left: -10px;
-}
-.loc-box2 {
 	position: absolute;
+	border: 2px solid #968863;
+}
+.loc-title:after {
+	display: block;
+	content: "";
 	width: 100%;
 	height: 100%;
-	border: 2px solid #000;
+	
 	top: 10px;
 	left: 10px;
+	position: absolute;
+	border: 2px solid #968863;
 }
 .loc-text-one {
-	padding-top: 45px;
+	display: block;
 	font-size: 5em;
+	line-height: 1;
 	font-family: "Abril Fatface";
+	color: #968863;
+	opacity: 0.5;
 }
 .loc-text-location {
 	font-size: 1.8em;
 	font-family: 'Lora', serif;
+	color: #968863;
 }
-.loc-desc {
-	width: 45%;
-	margin-top: 5%;
-}
-
-.loc-diamonds {
-	position: absolute;
-	top: 0;
-	left: 50%;
-	width: 45%;
-	height: auto;
-}
-/* End Location Area */
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -471,60 +449,22 @@ h1 {
 	#infoContainer p {
 		width: 80%;
 	}
-	.loc-heading-container {
-		width: 100%;
-		height: 100px;
-		margin-top: 20px;
+	.loc-title-container {
+		margin: 0 auto 15%;
 	}
-	.loc-text-one {
-		position: static;
-		padding-top: 5px;
-		font-size: 3em;
-	}
-	.loc-text-location {
-		position: static;
-		font-size: 1em;
-		margin-top: -10px;
-	}
-	.loc-diamonds {
-		position: static;
-		width: 100%;
-	}
-	.loc-desc {
-		width: 100%;
-	}
-
-
-}
-@media only screen and (max-width : 441px) {
-	.discoverBtn {
-		width: 40%;
-		left: 30%;
-		top: 75%;
-	}
-	.motto {
-		font-size: xx-small;
-		width: 70%;
-		left: 15%;
-	}
-	#infoContainer p {
-		width: 100%;
-	}
-}
-@media only screen and (min-width : 670px) {
-	.five {
-		display: none;
-	}
-}
-@media only screen and (max-width : 670px) {
 	.five-reasons {
 		background: url('../imgs/boatscale.jpg') top center no-repeat;
 		background-size: cover;
 		text-align: center;
+		padding-top: 50%;
 	}
-
+	.five-container {
+		margin-top: -120px;
+		height: 240px;
+	}
 	.five {
 		font-size: 6em;
+		color: #968863;
 	}
 	.reasons {
 		position: static;
@@ -543,8 +483,26 @@ h1 {
 		color: #60898F;
 		letter-spacing: -4px;
 	}
-
-
+}
+@media only screen and (max-width : 441px) {
+	.discoverBtn {
+		width: 40%;
+		left: 30%;
+		top: 75%;
+	}
+	.motto {
+		font-size: xx-small;
+		width: 70%;
+		left: 15%;
+	}
+	#infoContainer p {
+		width: 100%;
+	}
+}
+@media only screen and (min-width : 769px) {
+	.five {
+		display: none;
+	}
 }
 @media only screen and (max-height: 545px) {
 	.discoverBtn {
