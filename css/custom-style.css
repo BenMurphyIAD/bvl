@@ -328,13 +328,13 @@ h1 {
   margin-left:40%;
   position:absolute;
   width:45%;
-  height:30%;
+  height:25%;
   
   }
   .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
-  max-width: 400px;
-  height: 300px;
+  max-width: 503px;
+  height: 224px;
   margin: auto;
   }
   
