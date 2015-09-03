@@ -226,20 +226,12 @@ h1 {
 	margin-top: 5%;
 }
 
-.loc-dia-1 {
+.loc-diamonds {
 	position: absolute;
 	top: 0;
 	left: 45%;
-}
-.loc-dia-2 {
-	position: absolute;
-	top: 21%;
-	left: 60%;
-}
-.loc-dia-3 {
-	position: absolute;
-	top: 5%;
-	left: 74%;
+	width: 50%;
+	height: auto;
 }
 /* End Location Area */
 
