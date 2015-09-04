@@ -21,24 +21,26 @@
 	#infoContainer p {
 		width: 100%;
 	}
-	.com-text-lon {
-		position: static;
-		display: block;
+	/*.com-text-lon {
 		margin-top: -1em;
 	}
 	.com-text-bomo {
-		position: static;
-		display: block;
 		margin-top: -1em;
 		font-size: 2em;
 	}
 	.com-text-vs {
-		position: static;
-		display: block;
 		font-size: 7em;
 		left: 36%;
 		bottom: -5%;
 	}
+	.com-img-lon {
+		position: static;
+		width: 80%;
+	}
+	.com-img-bomo {
+		position: static;
+		width: 80%;
+	}*/
 }
 
 /* Small Devices, Tablets */
@@ -93,14 +95,14 @@
 	}
 
 
-
-	.com-row {
+	/*.com-row {
 		min-height: 60vh;
 		text-align: center;
 		padding: 10vh 0;
 	}
 	.com-img-lon {
 		position: static;
+		margin-top: 10%;
 		width: 60%;
 	}
 	.com-img-bomo {
@@ -127,7 +129,7 @@
 	}
 	.com-text-wrapper {
 		font-size: 0.6em;
-	}
+	}*/
 }
 
 /* Medium Devices, Desktops */
@@ -137,21 +139,30 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
-
-}
-/* Commuute area specific queries */
-@media only screen and (max-width : 1267px) {
-	.com-text-lon {
+	/*.com-text-lon {
 		left: 0;
+		font-size: 4em;
+		bottom: 6%;
 	}
 	.com-text-bomo {
 		right: 0;
+		font-size: 3.8em;
+		bottom: 6%;
 	}
 	.com-text-wrapper {
 		font-size: 0.6em;
 	}
-}
+	.com-img-lon {
 
+		width: 44%;
+		top: 14%;
+	}
+	.com-img-bomo {
+		top: 14%;
+		width: 42%;
+
+	}*/
+}
 
 
 
