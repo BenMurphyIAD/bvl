@@ -19,6 +19,7 @@ h1 {
 }
 .row {
 	max-width: 1200px;
+	margin: auto;
 }
 .jumbotron {
 	background: url('../imgs/hero-image.jpg') no-repeat center center fixed;
@@ -162,7 +163,7 @@ h1 {
 	letter-spacing: -4px;
 }
 
-
+/* Location section */
 .loc-section {
 	background: #C2FFE8;
 }
@@ -177,6 +178,9 @@ h1 {
 	width: 100%;
 	height: 200px;
 	background: url('../imgs/loc-topline.jpg') center center no-repeat;
+}
+.loc-line-bottom {
+	margin-top: -5%;
 }
 .loc-title-container {
 	position: static;
@@ -227,6 +231,59 @@ h1 {
 	color: #968863;
 }
 
+/* Commute Section */
+.com-section {
+	background: url('../imgs/commutebg.jpg') center center no-repeat;
+	background-size: 100% 100%;
+	padding: 140px 0 2% 0;
+	position: static;
+}
+.com-row {
+	background: url('../imgs/grey-box.jpg') center center no-repeat;
+	background-size: cover;
+	position: relative;
+	min-height: 700px;
+}
+.com-header-container {
+	width: 200px;
+	height: 200px;
+	border: 2px solid #968863;
+	margin: auto;
+	text-align: center;
+	position: absolute;
+	top: -100px;
+	left: 50%;
+	margin-left: -100px;
+}
+	.com-header-container span {
+		display: block;
+	}
+.com-header-text-2 {
+	display: block;
+	font-size: 5em;
+	line-height: 1;
+	font-family: "Abril Fatface";
+	color: #968863;
+	opacity: 0.5;
+	line-height: 1.5;
+}
+.com-header-text-ctw {
+	font-size: 1.8em;
+	font-family: 'Lora', serif;
+	color: #FFF;
+}
+.com-img-lon {
+	position: absolute;
+	width: 45%;
+	left: 2%;
+	top: 50px;
+}
+.com-img-bomo {
+	position: absolute;
+	width: 45%;
+	right: 2%;
+	top: 80px;
+}
 
 
 
@@ -482,6 +539,9 @@ h1 {
 		font-weight: bold;
 		color: #60898F;
 		letter-spacing: -4px;
+	}
+	.loc-line-bottom {
+		margin: 0;
 	}
 }
 @media only screen and (max-width : 441px) {
