@@ -21,6 +21,8 @@ h1 {
 	max-width: 1200px;
 	margin: auto;
 }
+
+/* Logo Section */
 .jumbotron {
 	background: url('../imgs/hero-image.jpg') no-repeat center center fixed;
 	background-size: cover;
@@ -76,6 +78,8 @@ h1 {
 	border: 1px dotted white;
 	padding: 5px 0;
 }
+
+/* First info section */
 .b-town {
 	background: url('../imgs/btown.png') no-repeat;
 	background-position: 100% 0;
@@ -138,9 +142,12 @@ h1 {
 #seeVacancies {
 	margin-bottom: 20%;
 }
+
+
+/* 5 Reasons Section */
 .five-reasons {
   background: url('../imgs/Boat2.png') center center no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
   position: relative;
   font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
   height: 100vh;
@@ -243,7 +250,7 @@ h1 {
 	background: url('../imgs/grey-box.jpg') center center no-repeat;
 	background-size: cover;
 	position: relative;
-	min-height: 80vh;
+	min-height: 70vh;
 }
 .com-header-container {
 	width: 200px;
@@ -315,7 +322,7 @@ h1 {
 }
 
 
-
+/* v Jack v */ 
 /*Club */
 .clubImg {
 	background: url('../imgs/club.jpg') no-repeat center center;

@@ -21,6 +21,24 @@
 	#infoContainer p {
 		width: 100%;
 	}
+	.com-text-lon {
+		position: static;
+		display: block;
+		margin-top: -1em;
+	}
+	.com-text-bomo {
+		position: static;
+		display: block;
+		margin-top: -1em;
+		font-size: 2em;
+	}
+	.com-text-vs {
+		position: static;
+		display: block;
+		font-size: 7em;
+		left: 36%;
+		bottom: -5%;
+	}
 }
 
 /* Small Devices, Tablets */
@@ -73,24 +91,71 @@
 	.loc-line-bottom {
 		margin: 0;
 	}
+
+
+
+	.com-row {
+		min-height: 60vh;
+		text-align: center;
+		padding: 10vh 0;
+	}
+	.com-img-lon {
+		position: static;
+		width: 60%;
+	}
+	.com-img-bomo {
+		position: static;
+		width: 60%;
+	}
+	.com-text-lon {
+		position: static;
+		display: block;
+		margin-top: -1em;
+	}
+	.com-text-bomo {
+		position: static;
+		display: block;
+		margin-top: -1em;
+		font-size: 4.5em;
+	}
+	.com-text-vs {
+		position: static;
+		display: block;
+		font-size: 7em;
+		left: 36%;
+		bottom: -5%;
+	}
+	.com-text-wrapper {
+		font-size: 0.6em;
+	}
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-	.five-reasons {
-		background-size: cover;
-	}
+	
 }
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
 
 }
+/* Commuute area specific queries */
+@media only screen and (max-width : 1267px) {
+	.com-text-lon {
+		left: 0;
+	}
+	.com-text-bomo {
+		right: 0;
+	}
+	.com-text-wrapper {
+		font-size: 0.6em;
+	}
+}
 
 
 
 
-    
+
 /* Styles for screen size greater than and equal to (min-width): */
 @media only screen and (min-width : 769px) {
 	.five {
