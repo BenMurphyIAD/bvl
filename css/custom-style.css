@@ -140,7 +140,7 @@ h1 {
 }
 .five-reasons {
   background: url('../imgs/Boat2.png') center center no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   position: relative;
   font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
   height: 100vh;
@@ -237,16 +237,17 @@ h1 {
 	background-size: 100% 100%;
 	padding: 140px 0 2% 0;
 	position: static;
+	min-height: 100vh;
 }
 .com-row {
 	background: url('../imgs/grey-box.jpg') center center no-repeat;
 	background-size: cover;
 	position: relative;
-	min-height: 700px;
+	min-height: 80vh;
 }
 .com-header-container {
 	width: 200px;
-	height: 200px;
+	height: 225px;
 	border: 2px solid #968863;
 	margin: auto;
 	text-align: center;
@@ -254,6 +255,7 @@ h1 {
 	top: -100px;
 	left: 50%;
 	margin-left: -100px;
+	z-index: 999;
 }
 	.com-header-container span {
 		display: block;
@@ -274,15 +276,42 @@ h1 {
 }
 .com-img-lon {
 	position: absolute;
-	width: 45%;
+	width: 43%;
 	left: 2%;
 	top: 50px;
 }
 .com-img-bomo {
 	position: absolute;
-	width: 45%;
+	width: 48%;
 	right: 2%;
 	top: 80px;
+}
+.com-text-vs {
+	position: absolute;
+	font-family: "Abril Fatface";
+	bottom: -7%;
+	left: 34%;
+	font-size: 10em;
+	color: #FFF;
+	z-index: 999;
+}
+.com-text-lon {
+	position: absolute;
+	bottom: 0;
+	left: -3%;
+	font-size: 6em;
+	color: #FFF;
+	opacity: 0.6;
+	font-weight: bold;
+}
+.com-text-bomo {
+	position: absolute;
+	bottom: 0;
+	right: -3%;
+	font-size: 6em;
+	color: #FFF;
+	opacity: 0.6;
+	font-weight: bold;
 }
 
 
@@ -493,94 +522,3 @@ h1 {
     margin-bottom: 120px;
 }
 /*End Grid*/
-/* Media queries: */
-@media only screen and (max-width : 768px) {
-	.motto {
-		font-size: small;
-		width: 50%;
-	}
-	.discoverBtn {
-		font-size: small;
-		letter-spacing: 0;
-	}
-	#infoContainer p {
-		width: 80%;
-	}
-	.loc-title-container {
-		margin: 0 auto 15%;
-	}
-	.five-reasons {
-		background: url('../imgs/boatscale.jpg') top center no-repeat;
-		background-size: cover;
-		text-align: center;
-		padding-top: 50%;
-	}
-	.five-container {
-		margin-top: -120px;
-		height: 240px;
-	}
-	.five {
-		font-size: 6em;
-		color: #968863;
-	}
-	.reasons {
-		position: static;
-		font-size: 1.8em;
-		top: 32%;
-		left: 42%;
-		letter-spacing: -1px;
-		color: #B1AFA5;
-	}
-	.awesome {
-		position: static;
-		font-size: 4em;
-		top: 34%;
-		left: 44%;
-		font-weight: bold;
-		color: #60898F;
-		letter-spacing: -4px;
-	}
-	.loc-line-bottom {
-		margin: 0;
-	}
-}
-@media only screen and (max-width : 441px) {
-	.discoverBtn {
-		width: 40%;
-		left: 30%;
-		top: 75%;
-	}
-	.motto {
-		font-size: xx-small;
-		width: 70%;
-		left: 15%;
-	}
-	#infoContainer p {
-		width: 100%;
-	}
-}
-@media only screen and (min-width : 769px) {
-	.five {
-		display: none;
-	}
-}
-@media only screen and (max-height: 545px) {
-	.discoverBtn {
-		width: 50%;
-		left: 25%;
-		top: 75%;
-		font-size: x-small;
-	}
-	.motto {
-		font-size: xx-small;
-		width: 70%;
-		left: 15%;
-	}
-	#infoContainer p {
-		width: 100%;
-	}
-	.bounce {
-		display: none;
-	}
-}
-/* 5 reasons breakpoint: 650px */ 
