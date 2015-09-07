@@ -352,59 +352,159 @@ h2 {
 	margin: 5% auto 0;
 }
 /* v Jack v */ 
-/*Club */
-.clubImg {
-	background: url('../imgs/club.jpg') no-repeat center center;
+
+/*Section 3*/
+
+
+.map-background {
+	background: url('../imgs/section3.jpg') no-repeat center center;
 	background-size: cover;
-	color: #FFF;
-	text-align: center;
-	height:933px;
+	padding: 140px 0 2% 0;
+	position: static;
+	min-height: 100vh;
 }
-.boxOutline1{
-	border:3px solid;
-	border-color: #2E8ED8;
-	width:225px;
-	height:225px;
+
+.s3left{
 	color:transparent;
-	position:absolute;
-	margin-left:20.5%;
-	margin-top:260px;
-}
-.boxOutline2{
-	border:3px solid;
-	border-color: #2E8ED8;
-	width:225px;
-	height:225px;
-	color:transparent;
-	position:absolute;
-	margin-left:20%;
-	margin-top:250px;
-}
-.boxDescDiv{
-	position:absolute;
-	color:transparent;
-	height:40%;
-	width:24%;
-	margin-top:250px;
-	margin-left:35%;
-	border-color:white;
-}
-.boxDesc{
+	width:70%;
 	position:absolute;
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-	font-size:9pt;
+	font-size:7pt;
+	color:black;
+	letter-spacing: 2px;
+}
+
+.s3right{
+	color:transparent;
+	width:70%;
+	position:absolute;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size:7pt;
+	color:black;
+	text-align:left;
+	letter-spacing: 2px;
+}
+
+.row-map{
+	max-width: 50%;
+	height:80vh;
+	margin: auto;
+}
+
+.row-map-row{
+	max-width: 100%;
+	height:70vh;
+	margin: auto;
+}
+
+.box-outline-m{
+	position: absolute;
+	width: 250px;
+	height: 250px;
+	margin: 0% 0%;
+}
+.box-m{
+	position: absolute;
+	background-color:#ED6975;
+	width: 100%;
+	height:100%;
+	margin: 0% -30%;
+}
+.box-m-n{
+	text-align: left;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 50pt;
+	color: white;
+	margin-top:-15px;
+	width:75%;
+	margin: 0 auto;
+	
+}
+
+.box-m-d{
+	text-align: right;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 20pt;
+	color: white;
+	width:75%;
+	margin: 0 auto;
+	
+}
+/*Seciton 3 End*/
+
+/*Club */
+.club-background {
+	background: url('../imgs/club.jpg') no-repeat center center;
+	background-size: 100% 100%;
+	padding: 140px 0 2% 0;
+	position: static;
+	min-height: 100vh;
+}
+
+.rowClub {
+	max-width: 90%;
+	margin: auto;
+}
+
+.box-outline-c{
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	margin-top: 8%;
+	margin-left:20%;
+}
+
+.box-outline{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	text-align: center;
+	padding: 20%;
+	
+}
+
+.box-outline:before{
+	display: block;
+	content: "";
+	width: 100%;
+	height: 100%;
+	
+	top: -10px;
+	left: -10px;
+	position: absolute;
+	border: 3px solid #2E8ED8;
+}
+
+.box-outline:after{
+	display: block;
+	content: "";
+	width: 100%;
+	height: 100%;
+	top: 10px;
+	left: 10px;
+	position: absolute;
+	border: 3px solid #2E8ED8;
+}
+
+.boxDescDiv{
+	color:transparent;
+	margin:10% 10%;
+	position:absolute;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size:0.9em;
 	color:white;
 	text-align:left;
 	letter-spacing: 2px;
 }
+
 .s4{
 	text-align: center;
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-	color: #99AAB1;
-	font-size:50pt;
-	margin-top:25px;
-	margin-left:-5%;
-	margin: 0 auto;
+	color: white;
+	font-size:40pt;
+	margin-left:10%;
+	margin-top:-20%;
+	
 }
 .s4Text{
 	text-align: center;
@@ -415,21 +515,10 @@ h2 {
 	width:75%;
 	margin: 0 auto;
 }
-.section4Slider{
-	
-	position:absolute;
-	margin-left:40%;
-	margin-top:550px;
-	width:35%;
-	height:30%;
-	border-color:white;
-	border:1px solid;
-}
   .carouselContainer{
-  margin-top:28%;
-  margin-left:40%;
+  margin: 50% auto;
   position:absolute;
-  width:45%;
+  width:100%;
   height:25%;
   
   }
@@ -449,7 +538,8 @@ h2 {
     background-repeat: repeat-x;
     left: auto;
     right: 0;
-}
+  }
+
 /*End Club */
 /*Grid */
 #vacanciesGrid .row{
