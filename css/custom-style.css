@@ -338,7 +338,7 @@ h1 {
 	font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
 }
 .com-info-section {
-	background: #000;
+	background: #000FFF; 
 	margin-top: -100px;
 	padding: 100px 0 0 0;
 }
