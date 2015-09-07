@@ -6,41 +6,55 @@
     
 }
 
-/* Extra Small Devices, Phones */ 
-@media only screen and (max-width : 480px) {
-	.discoverBtn {
-		width: 40%;
-		left: 30%;
-		top: 75%;
+/* Commute specific queries: */
+@media only screen and (max-width : 1440px) {
+	.com-row {
+		padding-top: 6%;
+		margin-top: -8%;
 	}
-	.motto {
-		font-size: xx-small;
-		width: 70%;
-		left: 15%;
+}
+@media only screen and (max-width : 1337px) {
+	.com-col-text-lon {
+		left: 0;
 	}
-	#infoContainer p {
-		width: 100%;
+	.com-col-text-bomo {
+		right: 0;
 	}
-	/*.com-text-lon {
-		margin-top: -1em;
+	.com-row {
+		padding-top: 6%;
+		margin-top: -6%;
 	}
-	.com-text-bomo {
-		margin-top: -1em;
-		font-size: 2em;
+}
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+@media only screen and (max-width : 1030px) {
+	.com-col-text-lon {
+		font-size: 4em;
 	}
-	.com-text-vs {
-		font-size: 7em;
-		left: 36%;
-		bottom: -5%;
+	.com-col-text-bomo {
+		font-size: 4em;
 	}
-	.com-img-lon {
-		position: static;
-		width: 80%;
+	.com-col-text-vs {
+		font-size: 8em;
+		left: -40%;
 	}
-	.com-img-bomo {
-		position: static;
-		width: 80%;
-	}*/
+	.com-row {
+		padding-top: 10%;
+		margin-top: -12%;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+@media only screen and (max-width : 820px) {
+	.com-col-text-vs {
+		font-size: 6em;
+	}
 }
 
 /* Small Devices, Tablets */
@@ -94,78 +108,42 @@
 		margin: 0;
 	}
 
-
-	/*.com-row {
-		min-height: 60vh;
+	.com-col-text-vs {
+		display: block;
+		position: static;
+	}
+	.com-col-vs {
+		min-height: 0;
 		text-align: center;
-		padding: 10vh 0;
 	}
-	.com-img-lon {
-		position: static;
-		margin-top: 10%;
-		width: 60%;
-	}
-	.com-img-bomo {
-		position: static;
-		width: 60%;
-	}
-	.com-text-lon {
-		position: static;
-		display: block;
-		margin-top: -1em;
-	}
-	.com-text-bomo {
-		position: static;
-		display: block;
-		margin-top: -1em;
-		font-size: 4.5em;
-	}
-	.com-text-vs {
-		position: static;
-		display: block;
-		font-size: 7em;
-		left: 36%;
-		bottom: -5%;
-	}
-	.com-text-wrapper {
-		font-size: 0.6em;
-	}*/
 }
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+	.discoverBtn {
+		width: 40%;
+		left: 30%;
+		top: 75%;
+	}
+	.motto {
+		font-size: xx-small;
+		width: 70%;
+		left: 15%;
+	}
+	#infoContainer p {
+		width: 100%;
+	}
 
-/* Medium Devices, Desktops */
-@media only screen and (max-width : 992px) {
-	
+	.com-col-text-bomo {
+		font-size: 3.3em;
+	}
+	.com-col-text-lon {
+		font-size: 3.6em;
+	}
+	.com-row {
+		padding-top: 42%;
+		margin-top: -33%;
+	}
 }
-
-/* Large Devices, Wide Screens */
-@media only screen and (max-width : 1200px) {
-	/*.com-text-lon {
-		left: 0;
-		font-size: 4em;
-		bottom: 6%;
-	}
-	.com-text-bomo {
-		right: 0;
-		font-size: 3.8em;
-		bottom: 6%;
-	}
-	.com-text-wrapper {
-		font-size: 0.6em;
-	}
-	.com-img-lon {
-
-		width: 44%;
-		top: 14%;
-	}
-	.com-img-bomo {
-		top: 14%;
-		width: 42%;
-
-	}*/
-}
-
-/* Commute
-
 
 
 /* Styles for screen size greater than and equal to (min-width): */
