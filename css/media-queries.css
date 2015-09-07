@@ -1,17 +1,9 @@
 /* Media queries: */
 
-/* Styles for screen size smaller than and equal to (max-width): */
-/* Custom, iPhone Retina */ 
-@media only screen and (max-width : 320px) {
-    
-}
 
 /* Commute specific queries: */
 @media only screen and (max-width : 1440px) {
-	.com-row {
-		padding-top: 6%;
-		margin-top: -8%;
-	}
+
 }
 @media only screen and (max-width : 1337px) {
 	.com-col-text-lon {
@@ -20,10 +12,7 @@
 	.com-col-text-bomo {
 		right: 0;
 	}
-	.com-row {
-		padding-top: 6%;
-		margin-top: -6%;
-	}
+
 }
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
@@ -40,10 +29,7 @@
 		font-size: 8em;
 		left: -40%;
 	}
-	.com-row {
-		padding-top: 10%;
-		margin-top: -12%;
-	}
+
 }
 
 /* Medium Devices, Desktops */
@@ -139,11 +125,12 @@
 	.com-col-text-lon {
 		font-size: 3.6em;
 	}
-	.com-row {
-		padding-top: 42%;
-		margin-top: -33%;
-	}
 }
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+    
+}
+
 
 
 /* Styles for screen size greater than and equal to (min-width): */

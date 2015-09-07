@@ -278,24 +278,31 @@ h1 {
 	position: relative;
 	min-height: 65vh;
 	height: 100%;
-	padding-top: 7%;
-	margin-top: -6%;
+	padding: 120px 0 0 0;
+	margin-top: -100px;
 	z-index: 1;
 }
 .com-col-lon {
 	background: url('../imgs/commute-london.jpg') center center no-repeat;
 	background-size: cover;
 	margin: 2% 0% 2% 2%;
-	min-height: 40vh;
+	min-height: 200px;
+	height: 55vh;
+	max-height: 400px;
 }
 .com-col-bomo {
 	background: url('../imgs/commute-bike.jpg') center center no-repeat;
 	background-size: cover;
 	margin: 2% 2% 2% 0%;
-	min-height: 40vh;
+	min-height: 200px;
+	height: 55vh;
+	max-height: 400px;
 }
 .com-col-vs {
-	min-height: 40vh;
+	min-height: 55vh;
+	min-height: 200px;
+	height: 55vh;
+	max-height: 400px;
 }
 .com-col-text-bomo {
 	display: block;
@@ -306,6 +313,7 @@ h1 {
 	font-weight: bold;
 	color: #FFF;
 	opacity: 0.75;
+	max-height: 450px;
 }
 .com-col-text-lon {
 	display: block;
@@ -320,7 +328,7 @@ h1 {
 .com-col-text-vs {
 	display: block;
 	position: absolute;
-	bottom: 0%;
+	bottom: -10%;
 	left: -90%;
 	font-weight: bold;
 	color: #FFF;
@@ -329,6 +337,12 @@ h1 {
 	line-height: 0.7;
 	font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
 }
+.com-info-section {
+	background: #000;
+	margin-top: -100px;
+	padding: 100px 0 0 0;
+}
+
 /* v Jack v */ 
 /*Club */
 .clubImg {
