@@ -39,7 +39,70 @@
 		left: 36%;
 		bottom: -5%;
 	}
+
+
+/*jack section 3*/
+
+
+.map-background {
+	background: url('../imgs/section3.jpg') no-repeat center center;
+	background-size: cover;
+	padding: 140px 0 2% 0;
+	position: static;
+	min-height: 100vh;
 }
+
+.s3left{
+	color:transparent;
+	width:100%;
+	position:absolute;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size:9pt;
+	color:black;
+	text-align:center;
+	letter-spacing: 2px;
+}
+
+.s3right{
+	color:transparent;
+	width:100%;
+	position:absolute;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size:9pt;
+	color:black;
+	text-align:center;
+	letter-spacing: 2px;
+}
+
+.row-map{
+	max-width: 80%;
+	height:80vh;
+	margin: auto;
+}
+
+.row-map-row{
+	max-width: 100%;
+	height:70vh;
+	margin: auto;
+}
+
+.box-outline-m{
+	position: absolute;
+	width: 250px;
+	height: 250px;
+	margin: 0% 0%;
+}
+.box-m{
+	position: absolute;
+	background-color:#ED6975;
+	width: 100%;
+	height:100%;
+	margin: auto;
+}
+
+}
+
+/*jack section 3 end*/
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
@@ -128,16 +191,126 @@
 	.com-text-wrapper {
 		font-size: 0.6em;
 	}
+	
+	/*jacks section 3*/
+	.map-background {
+	background: url('../imgs/section3.jpg') no-repeat center center;
+	background-size: cover;
+	padding: 140px 0 2% 0;
+	position: static;
+	min-height: 100vh;
 }
 
+.s3left{
+	color:transparent;
+	width:100%;
+	position:absolute;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size:9pt;
+	color:black;
+	text-align:center;
+	letter-spacing: 2px;
+}
+
+.s3right{
+	color:transparent;
+	width:100%;
+	position:absolute;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size:9pt;
+	color:black;
+	text-align:center;
+	letter-spacing: 2px;
+}
+
+.row-map{
+	max-width: 80%;
+	height:80vh;
+	margin: auto;
+}
+
+.row-map-row{
+	max-width: 100%;
+	height:70vh;
+	margin: auto;
+}
+
+.box-outline-m{
+	position: absolute;
+	width: 250px;
+	height: 250px;
+	margin: 0% 0%;
+}
+.box-m{
+	position: absolute;
+	background-color:#ED6975;
+	width: 100%;
+	height:100%;
+	margin: auto;
+}
+	/*section 3 end*/ 
+	
+	}
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
 	
+	/*jacks section 3*/
+	.map-background {
+	background: url('../imgs/section3.jpg') no-repeat center center;
+	background-size: cover;
+	padding: 140px 0 2% 0;
+	position: static;
+	min-height: 100vh;
 }
 
-/* Large Devices, Wide Screens */
-@media only screen and (max-width : 1200px) {
+.s3left{
+	color:transparent;
+	width:100%;
+	position:absolute;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size:9pt;
+	color:black;
+	text-align:center;
+	letter-spacing: 2px;
+}
 
+.s3right{
+	color:transparent;
+	width:100%;
+	position:absolute;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size:9pt;
+	color:black;
+	text-align:center;
+	letter-spacing: 2px;
+}
+
+.row-map{
+	max-width: 80%;
+	height:80vh;
+	margin: auto;
+}
+
+.row-map-row{
+	max-width: 100%;
+	height:70vh;
+	margin: auto;
+}
+
+.box-outline-m{
+	position: absolute;
+	width: 250px;
+	height: 250px;
+	margin: 0% 0%;
+}
+.box-m{
+	position: absolute;
+	background-color:#ED6975;
+	width: 100%;
+	height:100%;
+	margin: auto;
+}
+	/*section 3 end*/ 
 }
 /* Commuute area specific queries */
 @media only screen and (max-width : 1267px) {
