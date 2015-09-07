@@ -74,11 +74,16 @@
 	letter-spacing: 2px;
 }
 
+
 .row-map{
 	max-width: 80%;
 	height:80vh;
 	margin: auto;
 }
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
 
 .row-map-row{
 	max-width: 100%;
