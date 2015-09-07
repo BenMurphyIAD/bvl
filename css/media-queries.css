@@ -101,7 +101,8 @@
 		position: static;
 	}
 	.com-col-vs {
-		min-height: 0;
+		min-height: 0 !important;
+		height: auto;
 		text-align: center;
 	}
 }
@@ -126,6 +127,12 @@
 	}
 	.com-col-text-lon {
 		font-size: 3.6em;
+	}
+	.com-col-lon {
+		height: 30vh;
+	}
+	.com-col-bomo {
+		height: 30vh;
 	}
 }
 /* Custom, iPhone Retina */ 
